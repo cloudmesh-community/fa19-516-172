@@ -9,6 +9,6 @@ Week ending on 1st Sep 2019
 
 - [x] Created a new account on GitHub
 - [x] Created a new account on FutureSystemOrg
-- [x] Created a new account on Chamelon
+- [x] Created a new account on ChameleonCloud
 - [x] Started communication through Piazza.
-- [] Started going through the coursework and online videos posted for the course.
+- [ ] Started going through the coursework and online videos posted for the course.
