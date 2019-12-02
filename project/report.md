@@ -5,8 +5,6 @@
   - email: nayeemullahbaig.93@gmail.com  
   - repo: [fa19-516-172](<https://github.com/cloudmesh-community/fa19-516-172/tree/master>)  
 
-:o2: please move this document into project dir for 172
-
 * [Contributors](<https://github.com/cloudmesh-community/fa19-516-144/graphs/contributors>)  
 * [Forked Branch](<https://github.com/ElectricErudite/cloudmesh-cloud>)
 
