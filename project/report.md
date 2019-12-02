@@ -34,15 +34,13 @@ on additional other cloud security aspects of his chosing if desired.
 ## Tasks
 
 ### CMS Key Command
-
-Task Lead: Nayeem    
+  
 Status: In Progress   
 
 Last Update: Implemented ``` cms key add --source=FILE_PATH ```
 
 ### CMS KeyGroup Command
 
-Task Lead: Nayeem   
 Status: In Progress   
 
 Last Update: Added KeyGroup.py file based on SecGroup.py   
