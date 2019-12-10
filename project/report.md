@@ -5,8 +5,8 @@
   - email: nayeemullahbaig.93@gmail.com  
   - repo: [fa19-516-172](<https://github.com/cloudmesh-community/fa19-516-172/tree/master>)  
 
-* [Contributors](<https://github.com/cloudmesh-community/fa19-516-144/graphs/contributors>)  
-* [Forked Branch](<https://github.com/ElectricErudite/cloudmesh-cloud>)
+* [Contributors](<https://github.com/cloudmesh-community/fa19-516-172/graphs/contributors>)  
+* [Forked Keygroup Branch](<https://github.com/cloudmesh/cloudmesh-cloud/tree/keygroup>)
 
 ## Introduction
 
@@ -27,10 +27,6 @@ on additional other cloud security aspects of his chosing if desired.
 #### Automating Key Management
 
 
-## References
-
-:o2: Missing
-
 ## Tasks
 
 ### CMS Key Command
@@ -47,5 +43,19 @@ Last Update: Added KeyGroup.py file based on SecGroup.py
 
 ## Progress
 
-* not reported
+* Following commands
+ 
+* cms key group list
+
+* cms key group list --group=abc
+
+* cms key group delete
+
+* cms key group add --group=abc --name=\"laszewsk_git_[0,,1,2]\"
+               
+* cms key group export --file=~/authorized_keys --group=abc,klm
+
+* cms key group upload --group=NAME ip=.... --authorized_keys
+
+* cms key group add --group=NAME  ip=.... --authorized_keys
 
