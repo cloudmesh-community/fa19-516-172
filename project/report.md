@@ -1,6 +1,10 @@
 # Group Key Management for Cloudmesh  
 
-- Nayeem Baig  
+:o2: needs to be completed
+
+:o2: please use code blocks for code
+
+Nayeem Baig  
 
   - email: nayeemullahbaig.93@gmail.com  
   - repo: [fa19-516-172](<https://github.com/cloudmesh-community/fa19-516-172/tree/master>)  
