@@ -6,6 +6,7 @@
 
 :o2: manual page not included 
 
+:o2: examples are unintuitve, shoudl you not start with an emmpty list ?
 
 Nayeem Baig  
 
