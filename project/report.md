@@ -8,6 +8,8 @@
 
 :o2: examples are unintuitve, shoudl you not start with an emmpty list ?
 
+:o2; commands are written as `cms key add --source=FILENAME`
+
 Nayeem Baig  
 
   - email: nayeemullahbaig.93@gmail.com  
