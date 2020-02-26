@@ -2,6 +2,7 @@
 
 :o2: needs to be completed
 
+:o2: dont use two spaces at end of line 
 
 Nayeem Baig  
 
@@ -13,11 +14,11 @@ Nayeem Baig
 
 ## Introduction
 
-In the cloud we need to give access to VMs to multiple users.  
-The management of keys need to be automated and integrated with mongoDB.  
-Cloudmesh is missing functionality to easily add keys and control the access  
-policies related to key management. Functionality to utilize mongo DB have  
-already been developed for the Security Rules and Security Groups functions.  
+In the cloud we need to give access to VMs to multiple users.
+The management of keys need to be automated and integrated with mongoDB.
+Cloudmesh is missing functionality to easily add keys and control the access
+policies related to key management. Functionality to utilize mongo DB have
+already been developed for the Security Rules and Security Groups functions.
 We can add Key Groups that are defined by both the related cloud provider and  
 collection of related keys to fine tune access control for all connected machines.   
 
