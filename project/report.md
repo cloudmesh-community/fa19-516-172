@@ -4,6 +4,9 @@
 
 :o2: dont use two spaces at end of line 
 
+:o2: manual page not included 
+
+
 Nayeem Baig  
 
   - email: nayeemullahbaig.93@gmail.com  
