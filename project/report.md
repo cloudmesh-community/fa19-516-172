@@ -2,7 +2,7 @@
 
 * **Note:** This project has been replaced by an 
   implementation by Gregor von Laszewski. The new implementation 
-  includes integration with cloudmesh and provides a better 
+  includes integration with cloudmesh and provides a new 
   group management.
   
 <!--
