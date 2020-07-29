@@ -21,7 +21,6 @@ Nayeem Baig
 
 * Repo: [fa19-516-172](<https://github.com/cloudmesh-community/fa19-516-172/tree/master>)
 * [Contributors](<https://github.com/cloudmesh-community/fa19-516-172/graphs/contributors>)
-* [Forked Keygroup Branch](<https://github.com/cloudmesh/cloudmesh-cloud/tree/keygroup>)
 
 ## Introduction
 
