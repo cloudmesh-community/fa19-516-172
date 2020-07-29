@@ -64,13 +64,13 @@ cms key group delete --group=abc --name=\"laszewsk_git_[0,,1,2]\"
 cms key group export --group=abc,klm --file=FILENAME
 ```
 
-# Task left 
+## Task left 
 
 ```
 cms key group upload --group=NAME ip=.... --authorized_keys
 ```
 
-# Usage
+## Usage
 
 ```
 cms key add --source=FILENAME
@@ -222,7 +222,7 @@ ssh-rsa hidden on purpose
 ssh-rsa hidden on purpose nayeem@workspace
 ```
 
-# References
+## References
 
 * https://github.com/cloudmesh/cloudmesh-cloud
 
