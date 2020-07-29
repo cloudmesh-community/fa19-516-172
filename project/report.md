@@ -5,18 +5,6 @@
   includes integration with cloudmesh and provides a new 
   group management.
   
-<!--
-:o2: needs to be completed
-
-:o2: dont use two spaces at end of line 
-
-:o2: manual page not included 
-
-:o2: examples are unintuitve, shoudl you not start with an emmpty list ?
-
-:o2: commands are written as `cms key add --source=FILENAME`
--->
-
 Nayeem Baig
 
 * Repo: [fa19-516-172](<https://github.com/cloudmesh-community/fa19-516-172/tree/master>)
