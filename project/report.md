@@ -76,6 +76,8 @@ cms key add NAME --source=FILE_PATH
 (ENV3) nayeem@workspace:~$ cms key add --source=/home/nayeem/test/id_rsa2.pub ids2
 Cloudmesh Database Update |################################| 1/1
 (ENV3) nayeem@workspace:~$ cms key list
+```
+
 +------------------+---------+-------------------------------------------------+------------------+
 | Name | Type| Fingerprint | Comment|
 +------------------+---------+-------------------------------------------------+------------------+
@@ -91,8 +93,6 @@ Cloudmesh Database Update |################################| 1/1
 | testing| ssh-rsa | 3d:74:85:e7:2c:e6:26:48:a8:74:c6:fd:b8:de:23:3b | nayeem@workspace |
 | ids2 | ssh-rsa | 7b:b0:ba:7b:f1:54:df:87:5c:ff:42:41:91:84:bc:98 | nayeem@workspace |
 +------------------+---------+-------------------------------------------------+------------------+
-
-```
 
 ```
 cms key group add --group=GROUPNAME NAME
@@ -102,6 +102,8 @@ cms key group add --group=GROUPNAME NAME
 (ENV3) $ cms key group add --group=testGroup6 ids2
 Cloudmesh Database Update |################################| 1/1
 (ENV3) $ cms key group list
+```
+
 +------------------+---------+-------------------------------------------------+------------------+
 | Name | Type| Fingerprint | Comment|
 +------------------+---------+-------------------------------------------------+------------------+
@@ -117,6 +119,7 @@ Cloudmesh Database Update |################################| 1/1
 | testing| ssh-rsa | 3d:74:85:e7:2c:e6:26:48:a8:74:c6:fd:b8:de:23:3b | nayeem@workspace |
 | ids2 | ssh-rsa | 7b:b0:ba:7b:f1:54:df:87:5c:ff:42:41:91:84:bc:98 | nayeem@workspace |
 +------------------+---------+-------------------------------------------------+------------------+
+
 +------------+--------------------------------------------------+
 | Name | Keys |
 +------------+--------------------------------------------------+
@@ -127,8 +130,6 @@ Cloudmesh Database Update |################################| 1/1
 | testGroup| ['nayeembaig_git_1', 'idRSA1', 'TEST'] |
 | testGroup1 | ['nayeembaig_git_1', 'TEST', 'idRSA1'] |
 +------------+--------------------------------------------------+
-
-```
 
 ```
 cms key group list
@@ -136,6 +137,8 @@ cms key group list
 
 ```
 (ENV3) $ cms key group list
+```
+
 +------------------+---------+-------------------------------------------------+------------------+
 | Name | Type| Fingerprint | Comment|
 +------------------+---------+-------------------------------------------------+------------------+
@@ -151,6 +154,7 @@ cms key group list
 | testing| ssh-rsa | 3d:74:85:e7:2c:e6:26:48:a8:74:c6:fd:b8:de:23:3b | nayeem@workspace |
 | ids2 | ssh-rsa | 7b:b0:ba:7b:f1:54:df:87:5c:ff:42:41:91:84:bc:98 | nayeem@workspace |
 +------------------+---------+-------------------------------------------------+------------------+
+
 +------------+--------------------------------------------------+
 | Name | Keys |
 +------------+--------------------------------------------------+
@@ -162,7 +166,6 @@ cms key group list
 | testGroup1 | ['nayeembaig_git_1', 'TEST', 'idRSA1'] |
 +------------+--------------------------------------------------+
 
-```
 
 ```
 cms key group delete --group=GROUPNAME NAME
@@ -173,6 +176,8 @@ cms key group delete --group=GROUPNAME NAME
 names:ids2
 Cloudmesh Database Update |################################| 1/1
 (ENV3) $ cms key group list
+```
+
 +------------------+---------+-------------------------------------------------+------------------+
 | Name | Type| Fingerprint | Comment|
 +------------------+---------+-------------------------------------------------+------------------+
@@ -188,6 +193,7 @@ Cloudmesh Database Update |################################| 1/1
 | testing| ssh-rsa | 3d:74:85:e7:2c:e6:26:48:a8:74:c6:fd:b8:de:23:3b | nayeem@workspace |
 | ids2 | ssh-rsa | 7b:b0:ba:7b:f1:54:df:87:5c:ff:42:41:91:84:bc:98 | nayeem@workspace |
 +------------------+---------+-------------------------------------------------+------------------+
+
 +------------+--------------------------------------------------+
 | Name | Keys |
 +------------+--------------------------------------------------+
@@ -198,8 +204,6 @@ Cloudmesh Database Update |################################| 1/1
 | testGroup| ['nayeembaig_git_1', 'idRSA1', 'TEST'] |
 | testGroup1 | ['nayeembaig_git_1', 'TEST', 'idRSA1'] |
 +------------+--------------------------------------------------+
-
-```
 
 ```
 cms key group export --group=GROUPNAME --file=FILENAME 
