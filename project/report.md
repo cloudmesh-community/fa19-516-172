@@ -1,10 +1,10 @@
 # Group Key Management for Cloudmesh
 
-* **Note:** This project has been completely replaced by an 
+* **Note:** This project has been replaced by an 
   implementation by Gregor von Laszewski. The new implementation 
-  includes advanced integration with cloudmesh and additional   
-  features.
-
+  includes integration with cloudmesh and provides a better 
+  group management.
+  
 <!--
 :o2: needs to be completed
 
