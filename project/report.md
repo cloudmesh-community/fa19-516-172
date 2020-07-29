@@ -1,5 +1,11 @@
 # Group Key Management for Cloudmesh
 
+* **Note:** This project has been completely replaced by an 
+  implementation by Gregor von Laszewski. The new implementation 
+  includes advanced integration with cloudmesh and additional   
+  features.
+
+<!--
 :o2: needs to be completed
 
 :o2: dont use two spaces at end of line 
@@ -9,13 +15,11 @@
 :o2: examples are unintuitve, shoudl you not start with an emmpty list ?
 
 :o2: commands are written as `cms key add --source=FILENAME`
-
+-->
 
 Nayeem Baig
 
-- email: nayeemullahbaig.93@gmail.com
-- repo: [fa19-516-172](<https://github.com/cloudmesh-community/fa19-516-172/tree/master>)
-
+* Repo: [fa19-516-172](<https://github.com/cloudmesh-community/fa19-516-172/tree/master>)
 * [Contributors](<https://github.com/cloudmesh-community/fa19-516-172/graphs/contributors>)
 * [Forked Keygroup Branch](<https://github.com/cloudmesh/cloudmesh-cloud/tree/keygroup>)
 
@@ -34,41 +38,34 @@ After addressing the completion of this elected task the students ahs
 the opportunity to work on additional other cloud security aspects of
 his chosing if desired.
 
+## Status
+
+According to Nayeem Baig this project is in progress and therefore was replaced 
+with a complete implementation by von Laszewski. The new implementation uses 
+the build in groups defined by the earlier cloudmesh implementation but not 
+uses within this project. Thus the work described here has since been deprectaed.
+
+
 ## Implementation
 
+Automating Key Management includes the following commands defined by von Laszewski:
 
-#### Automating Key Management
+* CMS KeyGroup Command
 
+  ```
+  cms key add --source=FILENAME
+  cms key group list
+  cms key group add --group=abc --name=\"laszewsk_git_[0,,1,2]\"
+  cms key group delete --group=abc --name=\"laszewsk_git_[0,,1,2]\"
+  cms key group export --group=abc,klm --file=FILENAME
+  ```
 
-## Tasks
+* Not completed:
 
-### CMS Key Command
-
-``` cms key add NAME --source=FILE_PATH ```
-
-### CMS KeyGroup Command
-
-Status: In Progress 
-
-Last Update: Only uploading keys to VMs is left 
-
-## Progress
-
-* Following commands have been implemented
-
-```
-cms key add --source=FILENAME
-cms key group list
-cms key group add --group=abc --name=\"laszewsk_git_[0,,1,2]\"
-cms key group delete --group=abc --name=\"laszewsk_git_[0,,1,2]\"
-cms key group export --group=abc,klm --file=FILENAME
-```
-
-## Task left 
-
-```
-cms key group upload --group=NAME ip=.... --authorized_keys
-```
+  ```
+  cms key add NAME --source=FILE_PATH ```
+  cms key group upload --group=NAME ip=.... --authorized_keys
+  ```
 
 ## Usage
 
@@ -103,9 +100,9 @@ cms key group add --group=GROUPNAME NAME
 ```
 
 ```
-(ENV3) nayeem@workspace:~$ cms key group add --group=testGroup6 ids2
+(ENV3) $ cms key group add --group=testGroup6 ids2
 Cloudmesh Database Update |################################| 1/1
-(ENV3) nayeem@workspace:~$ cms key group list
+(ENV3) $ cms key group list
 +------------------+---------+-------------------------------------------------+------------------+
 | Name | Type| Fingerprint | Comment|
 +------------------+---------+-------------------------------------------------+------------------+
@@ -139,7 +136,7 @@ cms key group list
 ```
 
 ```
-(ENV3) nayeem@workspace:~$ cms key group list
+(ENV3) $ cms key group list
 +------------------+---------+-------------------------------------------------+------------------+
 | Name | Type| Fingerprint | Comment|
 +------------------+---------+-------------------------------------------------+------------------+
@@ -173,10 +170,10 @@ cms key group delete --group=GROUPNAME NAME
 ```
 
 ```
-(ENV3) nayeem@workspace:~$ cms key group delete --group=testGroup6 ids2
+(ENV3)$ cms key group delete --group=testGroup6 ids2
 names:ids2
 Cloudmesh Database Update |################################| 1/1
-(ENV3) nayeem@workspace:~$ cms key group list
+(ENV3) $ cms key group list
 +------------------+---------+-------------------------------------------------+------------------+
 | Name | Type| Fingerprint | Comment|
 +------------------+---------+-------------------------------------------------+------------------+
@@ -210,16 +207,9 @@ cms key group export --group=GROUPNAME --file=FILENAME
 ```
 
 ```
-(ENV3) nayeem@workspace:~$ cms key group export --group=testGroup6 --file=/home/nayeem/export.txt
-(ENV3) nayeem@workspace:~$ cat /home/nayeem/export.txt 
+(ENV3) $ cms key group export --group=testGroup6 --file=/home/nayeem/export.txt
+(ENV3) $ cat /home/nayeem/export.txt 
 
-
-ssh-rsa hidden on purpose nayeem@workspace
-ssh-rsa hidden on purpose
-ssh-rsa hidden on purpose
-ssh-rsa hidden on purpose
-ssh-rsa hidden on purpose
-ssh-rsa hidden on purpose nayeem@workspace
 ```
 
 ## References
